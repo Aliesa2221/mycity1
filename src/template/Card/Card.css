@@ -1,0 +1,53 @@
+.tasks-container {
+    width: 400px;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 5px 0;
+}
+
+.task-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #e1e1e1;
+    margin-right: 10px;
+}
+
+.task-details {
+    flex-grow: 1;
+}
+
+.task-date {
+    font-size: 12px;
+    color: #888;
+}
+
+.task-status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.task-status.green {
+    background-color: green;
+}
+
+.task-status.red {
+    background-color: red;
+}

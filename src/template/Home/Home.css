@@ -1,0 +1,121 @@
+.home_content{
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+    /* margin-top: 100px; */
+}
+
+.contanier {
+    width: 98%;
+}
+
+
+.search {
+    display: flex;
+    margin-top: 10px;
+    border : 1px black solid;
+    border-top-right-radius: 7px;
+    border-radius: 7px;
+    bottom: 5px;
+}
+
+
+.searchInput {
+    text-align: right;
+    outline: none;
+    width: 100%;
+    border : none;
+}
+
+
+
+/* Media Query for Responsive Design */
+
+@media (max-width: 200px) {
+    .container {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+
+}
+  .app-bar {
+    background-color: whitesmoke;
+    width: 100%;
+    z-index:1000;
+    padding: auto;
+}  
+  .app-bar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+    
+
+  }
+  
+  
+  .app-bar-nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+
+  
+  .app-bar-nav a {
+    text-decoration: none;
+    color: #292929;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .app-bar-nav a:hover {
+    color: #55c7ec;
+  }
+  
+    @media (max-width: 200px) {
+    .app-bar-nav {
+      margin-top: 20px;
+
+    }
+  
+   
+  }
+  
+  
+  /* Default styles for the right-side app bar */
+
+/* Media query for smaller screens */
+@media (max-width: 200px) {
+  .right-app-bar {
+    width: 100%; /* Make the app bar full width for smaller screens */
+  }
+}
+
+.iconlist{
+  margin-left: 50px;
+}
+.listtexxt1 , .listtexxt2 , .listtexxt3 ,.listtexxt4 , .listtexxt5{
+  text-align: right;
+}
+.app-bar-logo {
+  max-width: 100px;
+  width: 100%;
+}
+
+.app-bar-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.home_table{
+  margin-top: 20px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+  direction: rtl;
+  text-align: center;
+
+}

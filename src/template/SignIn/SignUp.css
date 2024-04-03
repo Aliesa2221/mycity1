@@ -1,0 +1,40 @@
+.SignUp-body {
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    direction: rtl;
+}
+
+.sign-Up-container {
+    background-color: #eeeeee;
+    box-shadow: 0 1px 1px rgba(88, 0, 112, 0.1);
+    padding: 20px;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    border-radius: 30px;
+}
+.BoxLabel{
+    color: #000000;
+    text-align: right;
+    font-size: larger;
+    padding: 10px 45px 20px;
+}
+.Texts{
+    width: 80%;
+
+}
+label {
+    font-weight: bold;
+    display: block;
+    color: #000000;
+    text-align: right;
+
+} 
+
+.div-btn {
+    padding: 20px ;
+    border-top: 1px solid silver;
+}

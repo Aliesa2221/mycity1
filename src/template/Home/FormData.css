@@ -1,0 +1,15 @@
+
+
+.formdatatable{
+  margin-top: 20px;
+  box-shadow:   rgba(0, 0, 0, 0.1);
+}
+
+  /* Style for table headers */
+
+  
+  .formdata_content{
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  }

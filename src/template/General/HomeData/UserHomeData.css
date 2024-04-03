@@ -1,0 +1,8 @@
+.user_home_data{
+    width:350px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px;
+}
